@@ -20,6 +20,5 @@ struct ClientConnection {
 typedef void (*OnAcceptedConnectionFunction)(struct ClientConnection*);
 
 int runServer(OnAcceptedConnectionFunction);
-void closeSocket(SocketDescriptor socket);
 
 #endif //SOCKET_ARRAY_V1_POC_SERVER_H

@@ -5,7 +5,6 @@
 void onAcceptedConnection(struct ClientConnection* c) {
     debug("Handled connection\n")
     Sleep(10000);
-    closesocket(c->socket);
 }
 
 int main() {

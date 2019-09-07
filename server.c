@@ -121,6 +121,7 @@ typedef struct ThreadStruct (*ThreadStructArrayPtr)[MAX_THREADS];
 DWORD WINAPI threadFunction(void *data) {
     struct ThreadStruct *realData = (struct ThreadStruct *) data;
     realData->onAcceptedConnection(realData->client);
+    closeSocket(realData->client->socket);
 
     return 0;
 }
