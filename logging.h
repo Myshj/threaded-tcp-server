@@ -2,8 +2,8 @@
 // Created by Alexey on 07.09.2019.
 //
 
-#ifndef SOCKET_ARRAY_V1_POC_LOGGING_H
-#define SOCKET_ARRAY_V1_POC_LOGGING_H
+#ifndef THREADED_TCP_SERVER_LOGGING_H
+#define THREADED_TCP_SERVER_LOGGING_H
 
 #include <stdio.h>
 
